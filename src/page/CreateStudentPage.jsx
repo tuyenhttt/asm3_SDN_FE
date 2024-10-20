@@ -14,7 +14,7 @@ const CreateStudentPage = () => {
     e.preventDefault();
     try {
       await createStudent({ name, studentCode, isActive });
-      navigate("/students"); // Use navigate to go back to students page
+      navigate("/"); // Use navigate to go back to students page
     } catch (error) {
       console.error("Error creating student:", error);
     }
@@ -23,7 +23,7 @@ const CreateStudentPage = () => {
   return (
     <div className="container mx-auto mt-20">
       <h1 className="text-center text-2xl font-bold">Create New Student</h1>
-      <Link to="/students">
+      <Link to="/">
         <Button
           variant="primary"
           className="p-2 bg-blue-500 text-white rounded hover:bg-blue-700"

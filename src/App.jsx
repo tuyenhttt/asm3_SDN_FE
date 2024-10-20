@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/students" element={<StudentPage />} />
+        <Route path="/" element={<StudentPage />} />
         <Route path="/students/create" element={<CreateStudentPage />} />
         <Route path="/students/:id" element={<StudentDetail />} />
       </Routes>

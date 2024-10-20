@@ -64,7 +64,7 @@ const StudentDetail = () => {
   return (
     <div className="container mx-auto mt-20 p-6 bg-white rounded shadow-md">
       <h2 className="text-center mb-4 text-xl font-bold">Student Detail</h2>
-      <Link to="/students">
+      <Link to="/">
         <Button
           variant="primary"
           className="p-2 bg-blue-500 text-white rounded hover:bg-blue-700 mb-4"
